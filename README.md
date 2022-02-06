@@ -11,7 +11,8 @@ You can also use the screensharing feature in one to one calls.
 
 
 // You can download the code from here and run
-npm i for both the server and client , this will install all the dependencies.
+npm install
+for both the server and client , this will install all the dependencies.
 You can then further customize the code or use the same code.
 
 // You can check out what express.js is , as we have used express in our backend to serve the frontend of our app.
