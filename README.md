@@ -1,6 +1,6 @@
 # Implementation of WebRtc and PeerJs in NEXT.JS APP
 
-**[Live Demo ](https://openvc-lobby-client.vercel.app/)**
+# **[Live Demo ](https://openvc-lobby-client.vercel.app/)**
 
 
 This  app demonstrates the basic implementation of video calling features in a next.js app using peerjs , webrtc , turn servers and stun servers.
@@ -11,7 +11,8 @@ You can also use the screensharing feature in one to one calls.
 
 
 // You can download the code from here and run
-npm install
+<br/>
+# npm install
 for both the server and client , this will install all the dependencies.
 You can then further customize the code or use the same code.
 
