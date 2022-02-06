@@ -1,0 +1,41 @@
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.messages_input {
+  height: 40px;
+  width: 190px;
+  padding: 0 5px;
+  border: 1px solid #e6e5e8;
+  background-color: white;
+  border-style: inset;
+  position: absolute;
+  margin: 0;
+  right: 1%;
+  bottom: 14%;
+  font-size: 15px;
+  color: #000;
+  border-radius: 30px;
+}
+
+.message_displayer {
+  min-width: 50px;
+  min-height: 40px;
+  max-width: 195px;
+  padding: 10px 30px;
+  border: 1px solid #e6e5e8;
+  background-color: white;
+  position: absolute;
+  margin: 0;
+  right: 2%;
+  bottom: 40%;
+  font-size: 16px;
+  color: #000;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.6s ease;
+}

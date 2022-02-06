@@ -1,0 +1,32 @@
+.lobbywrapper {
+  max-height: 150px;
+  border: 1px solid #ddd;
+  display: flex;
+  overflow-x: auto;
+}
+/* .lobbywrapper::-webkit-scrollbar {
+  width: 0;
+  height: 12px;
+} */
+.lobbywrapper .item {
+  min-width: 180px;
+  height: 110px;
+  line-height: 110px;
+  text-align: center;
+  background-color: #1ca7ec;
+  margin-right: 2px;
+}
+.lobbywrapper .item:hover {
+  background-color: #787ff6;
+}
+
+.video_wrapper {
+  height: 550px;
+  width: 100%;
+  background-color: #ffff;
+  border: 1px solid;
+  border-radius: 8px;
+}
+.bg-directcall {
+  background-color: rgb(102, 102, 124);
+}

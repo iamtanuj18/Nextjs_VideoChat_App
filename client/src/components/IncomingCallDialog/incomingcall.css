@@ -1,0 +1,48 @@
+.direct_call_dialog {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  top: calc(50% - 150px);
+  left: calc(50% - 200px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.direct_call_dialog_accept_button {
+  border-radius: 50px;
+  outline: none;
+  border: 1px solid #e6e5e8;
+  font-size: 16px;
+  padding: 10px 10px;
+  width: 120px;
+  transition: 0.3s;
+  color: #000;
+  background-color: #58cf5c;
+}
+
+.direct_call_dialog_accept_button:hover {
+  background-color: white;
+  opacity: 2.5;
+  color: #000;
+}
+
+.direct_call_dialog_reject_button {
+  border-radius: 50px;
+  outline: none;
+  border: 1px solid #e6e5e8;
+  font-size: 16px;
+  padding: 10px 10px;
+  width: 120px;
+  transition: 0.3s;
+  color: #fff;
+  background-color: red;
+}
+
+.direct_call_dialog_reject_button:hover {
+  background-color: white;
+  opacity: 2.5;
+  color: black;
+}
